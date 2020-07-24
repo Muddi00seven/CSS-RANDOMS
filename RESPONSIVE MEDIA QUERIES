@@ -1,0 +1,107 @@
+
+  @media screen and (max-width: 1410px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+        margin-left: 0px;
+        margin-right: 0px;
+      }
+  
+      .stakeButtons {
+          margin-left: 0px;
+          margin-right: 0px;
+          width: 350px;
+  
+      }
+      .stakeAmpount-input{
+          width: 350px;
+      }
+  
+      .stakeHeading-confirmation{
+          margin-left: 0px;
+          margin-right: 0px;
+      }
+  }  
+  @media screen and (max-width: 1024px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+
+    .stakeButtons {
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 350px;
+
+    }
+    .stakeAmpount-input{
+        width: 350px;
+    }
+
+    .stakeHeading-confirmation{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+    
+    .stakeButtons {
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 350px;
+    }
+    .stakeAmpount-input{
+        width: 350px;
+    }
+
+    .stakeHeading-confirmation{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+  }
+
+
+/* RESPONSIVE */
+
+
+@media screen and (max-width: 580px) {
+
+.stake-containe{
+    display: inline-flex;
+    
+    
+}
+
+.column {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.stakeButtons {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 350px;
+
+}
+.stakeAmpount-input{
+    width: 350px;
+}
+
+.stakeHeading-confirmation{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+}
